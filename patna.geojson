@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patna",
+        "description": "Capital of Bihar, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.1376, 25.5941]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patna Boundary",
+        "description": "Approximate boundary of Patna"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [85.05, 25.65],
+            [85.05, 25.55],
+            [85.25, 25.55],
+            [85.25, 25.65],
+            [85.05, 25.65]
+          ]
+        ]
+      }
+    }
+  ]
+}

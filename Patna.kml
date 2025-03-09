@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Patna, Bihar</name>
+    <description>KML file for Patna, Bihar, India</description>
+
+    <!-- Point for Patna -->
+    <Placemark>
+      <name>Patna</name>
+      <description>Capital of Bihar, India</description>
+      <Point>
+        <coordinates>85.1376,25.5941,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Polygon for a rough boundary around Patna -->
+    <Placemark>
+      <name>Patna Boundary</name>
+      <description>Approximate boundary of Patna</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              85.05,25.65,0
+              85.05,25.55,0
+              85.25,25.55,0
+              85.25,25.65,0
+              85.05,25.65,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
